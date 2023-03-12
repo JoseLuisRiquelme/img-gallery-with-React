@@ -1,0 +1,41 @@
+
+body{
+  box-sizing: border-box;
+  min-width: 500px;
+}
+.card--container{
+  display: flex;
+  flex-direction: column;
+ margin: 5%;
+ border: 2px solid brown;
+  border-radius: 10px;
+}
+.card--p{
+  max-width: 100%;
+  margin: 5%;
+}
+.card--img{
+  max-width: 100%;
+  border: 2px solid brown;
+  border-radius: 10px;
+  margin: 5%;
+}
+.card--h2{
+  margin-left: 5%;
+}
+.Header--h1{
+  display: flex;
+  justify-content: center;
+  padding: 2% 10%;
+  border-bottom: 2px solid rgb(4, 63, 118);
+}
+.footer--container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5%;
+  border: 2px solid brown;
+  border-radius: 5px;
+  padding: 5px;
+}
